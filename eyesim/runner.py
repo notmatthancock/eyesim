@@ -118,6 +118,10 @@ def run(
             return [0]*100
         return segment.max(axis=1).tolist()
 
+    print("*"*80)
+    print("Press the spacebar to toggle widget visibility!")
+    print("*"*80)
+
     try:
         while True:
             # Handle events...
