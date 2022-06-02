@@ -1,6 +1,6 @@
 # eyesim
 
-![screenshot of eyesim](screenshot.png)
+<img src="screenshot.png" width="50%" height="50%" />
 
 This is a simulator for the [eyesy](https://www.critterandguitari.com/eyesy) visual synth. Its purpose is to allow you to develop new eyesy visualization modes when you're too lazy to get out of bed and plug in audio, video, and power cables.
 
