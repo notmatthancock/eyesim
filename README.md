@@ -26,6 +26,26 @@ eyesim --mode-folder "/path/to/S - Nice Mode/" --audio-file "/path/to/song.wav"
 
 When the simulator is running, pressing the space bar to toggle visibility of the sliders and buttons that simulate the knobs on the physical eyesy device.
 
+The full command line usage is:
+
+```bash
+$ eyesim --help
+usage: eyesim [-h] -m MODE_FOLDER [-a AUDIO_FILE] [-w WIDTH] [-t HEIGHT]
+
+Start eyesy simulation
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -m MODE_FOLDER, --mode-folder MODE_FOLDER
+                        path to folder containing mode's main.py script
+  -a AUDIO_FILE, --audio-file AUDIO_FILE
+                        path to audio file to play (optional)
+  -w WIDTH, --width WIDTH
+                        window width in pixels
+  -t HEIGHT, --height HEIGHT
+                        window height in pixels
+```
+
 ## Caveats
 
 The eyesy code runs Python 2, and all the stock modes are Python 2. But, this package is written in Python 3. I did this in order to use the pygame widgets package and to use the latest scipy for reading wav files. The result is that you might find your mode or a stock mode breaks. In my experience, this is almost always due to one of two things:
