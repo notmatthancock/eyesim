@@ -4,7 +4,9 @@
 
 This is a simulator for the [eyesy](https://www.critterandguitari.com/eyesy) visual synth. Its purpose is to allow you to develop new eyesy visualization modes when you're too lazy to get out of bed and plug in audio, video, and power cables.
 
-The simulator is a command line tool. As input, you give it a path to the mode folder containing a `main.py` file conforming to the [eyesy API](https://www.critterandguitari.com/manual?m=EYESY_Manual#52-eyesys-api). You can also give it a path to an audio file to use. Currently, only 16 bit WAV are usable. The audio file input is optional.
+eyesim launches a pygame window that runs the mode you give it. When you press the space bar, some widgets appear in the window that simulate the knobs of the eyesy.
+
+The simulator is a command line tool. As input, you give it a path to the mode folder containing a `main.py` file conforming to the [eyesy API](https://www.critterandguitari.com/manual?m=EYESY_Manual#52-eyesys-api). You can also give it a path to an audio file to use. Currently, only 16 bit WAV are usable. The audio file input is optional. More specific usage instructions are below.
 
 ## Install
 
